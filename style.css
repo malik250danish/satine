@@ -969,7 +969,8 @@ address {
 .hb-haslayout {
   width: 100%;
   float: left;
-  background: #F5F5DC !important;
+  background: #CAC3BA !important;
+  padding-bottom: 4rem;
 }
 
 .hb-wrapper {
@@ -5686,6 +5687,11 @@ body {
   border-top: 1px solid #e5e5e5;
 }
 
+.v2 {
+  background-color: #fff !important;
+  color: #000 !important
+}
+
 .hb-total em {
   float: right;
   font-size: 18px;
@@ -5698,7 +5704,7 @@ body {
 
 .v2 .hb-topbar {
   padding: 25px 0;
-  background: transparent;
+  background: #fff;
 }
 
 .v2 .hb-logo {
@@ -5759,17 +5765,6 @@ body {
   top: 58px;
 }
 
-.v2 .hb-navigation ul li a {
-  color: white;
-}
-
-.v2 .hb-searcharea a {
-  color: #fff;
-}
-
-.v2 .hb-cartarea a {
-  color: #fff;
-}
 
 .v2 .hb-cartarea a:hover {
   color: #2d2c40;
@@ -5948,7 +5943,7 @@ body {
 			Footer Style					
 ============================================= */
 .hb-footer {
-  background: #f5f5f9;
+  background: #024002;
 }
 
 /* =============================================
@@ -6466,7 +6461,7 @@ body {
 			Home Slider Style					
 ============================================= */
 .hb-homeslider {
-  background: #f5f5f9;
+  background: #CAC3BA;
 }
 
 .hb-homeslider.img-left .owl-item .hb-sliderimg img {
@@ -6846,7 +6841,7 @@ body {
   margin: 0 0 0 -110px;
   border-radius: 100%;
 
-  border: 10px solid rgba(212, 175, 55, 0.6);
+  border: 10px solid #024002;
   ;
   /* border: 10px solid rgba(225, 225, 225, 0.7); */
 }
@@ -7032,7 +7027,7 @@ body {
 ============================================= */
 
 .hb-pricingplan {
-  background-color: #f5f5f9;
+  background-color: #CAC3BA !important;
 }
 
 .hb-pricingbox {
@@ -8581,7 +8576,7 @@ body {
   padding: 30px;
   margin: 0 0 30px;
   position: relative;
-  background: #f5f5f9;
+  background: #CAC3BA;
 }
 
 .hb-testimonialcontentbox:after {
@@ -8593,7 +8588,7 @@ body {
   position: absolute;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-top: 15px solid #f5f5f9;
+  border-top: 15px solid #024002
 }
 
 .hb-testimonialcontentbox .hb-description {
@@ -9539,7 +9534,7 @@ body {
 .booked-calendar tbody tr td {
   width: 110px;
   border: 1px solid #fff;
-  background: #f5f5f9;
+  background: #CAC3BA;
   padding: 32px 0;
   float: left;
 }
@@ -9585,7 +9580,7 @@ body {
 }
 
 .booked-calendar tbody tr td.bg-pink:hover {
-  background: #f5f5f9;
+  background: #CAC3BA
 }
 
 .booked-calendar tbody tr td.bg-pink:hover span {
@@ -9639,7 +9634,7 @@ body {
 }
 
 .booked-calendar .entry-block tbody td {
-  background: #f5f5f9;
+  background: #CAC3BA;
   padding: 5px 4px 3px 27px;
   border-bottom: 1px solid #fff;
 }
@@ -11066,7 +11061,7 @@ body {
 }
 
 .hb-pricingplan .tab-list .active a {
-  background: #f5f5f9;
+  background: #024002 !important;
   color: #fac0f9;
 }
 

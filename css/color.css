@@ -110,7 +110,7 @@ a:active,
 .hb-socialicons li a,
 .hb-socialicons.hb-socialicons-sm li a:hover,
 .hb-cart li .hb-btn.changehover:hover,
-.v2 .hb-navigationarea,
+
 .hb-prev:hover,
 .hb-next:hover,
 .hb-homeslider.v4 .hb-slidercontent:after,
@@ -130,9 +130,11 @@ a:active,
 	;
 }
 
+.hb-navigationarea {
+	color: #D4AF37 !important;
+}
 
 
-.hb-topbar,
 .hb-footer.v2 .hb-info li:before,
 .hb-footer.v2 .hb-info li a:hover,
 .hb-pricingbox:hover,
@@ -143,17 +145,7 @@ a:active,
 .hb-testimonialbox .hb-testimonialcontentbox.active {
 
 
-	background: rgba(212, 175, 55, 0.8);
-	background: -moz-linear-gradient(left, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	/* background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212, 175, 55, 0.8)), color-stop(100%, rgba(251,186,248,0.8)))); */
-	background: -webkit-linear-gradient(left, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	background: -o-linear-gradient(left, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	background: -ms-linear-gradient(left, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	background: linear-gradient(to right, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4af37', endColorstr='#fbbaf8', GradientType=1);
-
-
-
+	background-color: #024002;
 	transition: 4s;
 	/* background: rgba(170,170,255,1);
 background: -moz-linear-gradient(left, rgba(170,170,255,1) 0%, rgba(251,186,248,1) 100%);
@@ -172,24 +164,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaff', end
 
 
 
-	/* background: rgba(170,170,255,0.8);
-background: -moz-linear-gradient(left, rgba(170,170,255,0.8) 0%, rgba(251,186,248,0.8) 100%);
-background: -webkit-gradient(left top, right top, color-stop(0%, rgba(170,170,255,0.8)), color-stop(100%, rgba(251,186,248,0.8)));
-background: -webkit-linear-gradient(left, rgba(170,170,255,0.8) 0%, rgba(251,186,248,0.8) 100%);
-background: -o-linear-gradient(left, rgba(170,170,255,0.8) 0%, rgba(251,186,248,0.8) 100%);
-background: -ms-linear-gradient(left, rgba(170,170,255,0.8) 0%, rgba(251,186,248,0.8) 100%);
-background: linear-gradient(to right, rgba(170,170,255,0.8) 0%, rgba(251,186,248,0.8) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaff', endColorstr='#fbbaf8', GradientType=1 ); */
+	background: #024002;
+	opacity: 0.7;
 
-
-	background: rgba(212, 175, 55, 0.8);
-	background: -moz-linear-gradient(left, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	/* background: -webkit-gradient(left top, right top, color-stop(0%, rgba(212, 175, 55, 0.8)), color-stop(100%, rgba(251,186,248,0.8)))); */
-	background: -webkit-linear-gradient(left, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	background: -o-linear-gradient(left, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	background: -ms-linear-gradient(left, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	background: linear-gradient(to right, rgba(212, 175, 55, 0.8) 0%, rgba(0, 100, 0, 0.8) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d4af37', endColorstr='#fbbaf8', GradientType=1);
 }
 
 .hb-footer.v3 .hb-socialicons li a,
@@ -197,7 +174,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaff', end
 .hb-homeslider.v5 .hb-prev:hover,
 .hb-homeslider.v5 .hb-next:hover,
 .hb-sectiontitle.v3:before {
-	background: #7ac284;
+	background: #024002;
 
 
 }
